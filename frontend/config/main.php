@@ -11,15 +11,22 @@ return [
     'basePath' => dirname(__DIR__),
     'bootstrap' => ['log'],
     'controllerNamespace' => 'frontend\controllers',
+    'modules' => [
+        'user' => [
+            'class' => dektrium\user\Module::class,
+            'enableConfirmation' => false,
+            'mailer' => [
+                'sender' => 'imperial.slavko@yandex.ru',
+            ],
+        ],
+    ],
     'components' => [
         'request' => [
             'csrfParam' => '_csrf-frontend',
             'baseUrl' => '',
         ],
         'user' => [
-            'identityClass' => 'common\models\User',
-            'enableAutoLogin' => true,
-            'identityCookie' => ['name' => '_identity-frontend', 'httpOnly' => true],
+            'identityClass' => dektrium\user\models\User::class,
         ],
         'session' => [
             // this is the name of the session cookie used for login on the frontend
