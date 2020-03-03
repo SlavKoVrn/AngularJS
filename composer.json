@@ -19,7 +19,9 @@
         "yiisoft/yii2-bootstrap": "~2.0.0",
         "yiisoft/yii2-swiftmailer": "~2.0.0 || ~2.1.0",
         "yiisoft/yii2-authclient": "^2.2",
-        "dektrium/yii2-user": "^0.9.14"
+        "dektrium/yii2-user": "^0.9.14",
+        "bower-asset/angular": "^1.5",
+        "bower-asset/angular-bootstrap": "^2.2"
     },
     "require-dev": {
         "yiisoft/yii2-debug": "~2.1.0",

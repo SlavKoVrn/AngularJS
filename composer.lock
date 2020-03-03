@@ -4,8 +4,49 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "63143fe418aaa582853b02046c953fd6",
+    "content-hash": "ee2bff818e5e844331fd037829966a60",
     "packages": [
+        {
+            "name": "bower-asset/angular",
+            "version": "v1.7.9",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/angular/bower-angular.git",
+                "reference": "84a5b810f33f82a552cee361268b77181691ce65"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/angular/bower-angular/zipball/84a5b810f33f82a552cee361268b77181691ce65",
+                "reference": "84a5b810f33f82a552cee361268b77181691ce65",
+                "shasum": null
+            },
+            "type": "bower-asset",
+            "license": [
+                "MIT"
+            ]
+        },
+        {
+            "name": "bower-asset/angular-bootstrap",
+            "version": "2.5.0",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:angular-ui/bootstrap-bower.git",
+                "reference": "752d6a79f500391a7efb06d80f37405c920a6f2b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/angular-ui/bootstrap-bower/zipball/752d6a79f500391a7efb06d80f37405c920a6f2b",
+                "reference": "752d6a79f500391a7efb06d80f37405c920a6f2b",
+                "shasum": null
+            },
+            "require": {
+                "bower-asset/angular": ">=1.4.0"
+            },
+            "type": "bower-asset",
+            "license": [
+                "MIT"
+            ]
+        },
         {
             "name": "bower-asset/bootstrap",
             "version": "v3.4.1",
